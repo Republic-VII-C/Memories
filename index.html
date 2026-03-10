@@ -3,26 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VII-C Memorial — N.K. Bagrodia Global School 2025-26</title>
+<title>VII-C Memorial — Moved</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 :root{--maroon:#7B1D1D;--gold:#C9A84C;--cream:#FDF6E3;--dark:#0F0A05;--warm:#2A1A0E;}
 *{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{background:var(--dark);color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden;}
-::-webkit-scrollbar{width:6px;}
-::-webkit-scrollbar-track{background:var(--dark);}
-::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px;}
-
-/* GSMS BANNER */
-#gsms-banner{position:fixed;top:0;left:0;right:0;z-index:10000;background:linear-gradient(90deg,#3a0000,#7B1D1D,#3a0000);border-bottom:2px solid #C9A84C;height:34px;display:flex;align-items:center;overflow:hidden;box-shadow:0 3px 20px rgba(0,0,0,0.7);opacity:0;transition:opacity 0.8s ease;}
-#gsms-banner.visible{opacity:1;}
-.gsms-scroll-wrap{width:100%;overflow:hidden;}
-.gsms-scroll-inner{display:inline-flex;align-items:center;gap:2rem;white-space:nowrap;animation:gsmsScroll 32s linear infinite;}
-@keyframes gsmsScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.gsms-tag{background:#C9A84C;color:#0F0A05;font-family:'Space Mono',monospace;font-size:0.55rem;font-weight:700;letter-spacing:0.2em;padding:0.18rem 0.55rem;border-radius:2px;flex-shrink:0;}
-.gsms-msg{font-family:'Space Mono',monospace;font-size:0.6rem;font-weight:700;letter-spacing:0.06em;color:#FDF6E3;text-shadow:0 0 10px rgba(201,168,76,0.25);}
-.gsms-sep{color:rgba(201,168,76,0.45);font-size:0.6rem;}
+body{background:var(--dark);color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden;min-height:100vh;}
 
 /* INTRO */
 #intro-screen{position:fixed;inset:0;z-index:9999;background:#050200;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:opacity 1.2s ease,visibility 1.2s ease;}
@@ -33,9 +19,9 @@ body{background:var(--dark);color:var(--cream);font-family:'DM Sans',sans-serif;
 .i-school{font-family:'Cinzel',serif;font-size:clamp(.85rem,2.4vw,1.2rem);letter-spacing:.2em;text-transform:uppercase;color:rgba(253,246,227,.48);opacity:0;transform:translateY(12px);transition:opacity .9s ease,transform .9s ease;margin-bottom:.35rem;}
 .i-presents{font-family:'DM Sans',sans-serif;font-size:clamp(.52rem,1.3vw,.68rem);letter-spacing:.45em;text-transform:uppercase;color:rgba(201,168,76,.28);opacity:0;transition:opacity .7s ease;margin-bottom:1.1rem;}
 .i-main{display:flex;align-items:center;justify-content:center;gap:.15em;line-height:1;margin-bottom:.8rem;}
-.i-vii{font-family:'Cinzel',serif;font-size:clamp(5rem,19vw,13.5rem);font-weight:900;color:#C9A84C;opacity:0;transform:translateX(-50px) scale(.9);transition:opacity 1.2s cubic-bezier(.16,1,.3,1),transform 1.2s cubic-bezier(.16,1,.3,1);text-shadow:0 0 120px rgba(201,168,76,.2),0 0 240px rgba(201,168,76,.07);}
+.i-vii{font-family:'Cinzel',serif;font-size:clamp(5rem,19vw,13.5rem);font-weight:900;color:#C9A84C;opacity:0;transform:translateX(-50px) scale(.9);transition:opacity 1.2s cubic-bezier(.16,1,.3,1),transform 1.2s cubic-bezier(.16,1,.3,1);text-shadow:0 0 120px rgba(201,168,76,.2);}
 .i-dash{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,9vw,6.5rem);color:rgba(201,168,76,.22);opacity:0;transition:opacity .8s ease;margin:0 .05em;}
-.i-c{font-family:'Cinzel',serif;font-size:clamp(5rem,19vw,13.5rem);font-weight:900;color:#FDF6E3;opacity:0;transform:translateX(50px) scale(.9);transition:opacity 1.2s cubic-bezier(.16,1,.3,1),transform 1.2s cubic-bezier(.16,1,.3,1);text-shadow:0 0 60px rgba(253,246,227,.07);}
+.i-c{font-family:'Cinzel',serif;font-size:clamp(5rem,19vw,13.5rem);font-weight:900;color:#FDF6E3;opacity:0;transform:translateX(50px) scale(.9);transition:opacity 1.2s cubic-bezier(.16,1,.3,1),transform 1.2s cubic-bezier(.16,1,.3,1);}
 .i-sub{font-family:'Space Mono',monospace;font-size:clamp(.48rem,1.3vw,.65rem);letter-spacing:.28em;text-transform:uppercase;color:rgba(201,168,76,.42);opacity:0;transform:translateY(8px);transition:opacity .8s ease,transform .8s ease;margin-bottom:1.1rem;}
 .i-divider{display:flex;align-items:center;justify-content:center;margin-bottom:.9rem;}
 #i-line{display:block;height:1px;background:linear-gradient(to right,transparent,rgba(201,168,76,.55),transparent);width:0;transition:width 2s cubic-bezier(.16,1,.3,1);}
@@ -46,187 +32,47 @@ body{background:var(--dark);color:var(--cream);font-family:'DM Sans',sans-serif;
 .i-vignette{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse 72% 72% at 50% 50%,transparent 32%,rgba(0,0,0,.92) 100%);}
 .i-scan{position:absolute;inset:0;z-index:4;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.022) 2px,rgba(0,0,0,.022) 4px);}
 .i-ray{position:absolute;top:50%;left:50%;width:1px;height:62vh;transform-origin:top center;background:linear-gradient(to bottom,rgba(201,168,76,.09),transparent);pointer-events:none;z-index:1;}
-@keyframes rayP{from{opacity:.08}to{opacity:.45}}
 
-/* NAV */
+/* PARTICLES */
 #particles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
 .particle{position:absolute;background:var(--gold);border-radius:50%;animation:float linear infinite;opacity:0;}
-@keyframes float{0%{transform:translateY(100vh);opacity:0}10%{opacity:0.6}90%{opacity:0.3}100%{transform:translateY(-10vh) translateX(30px);opacity:0}}
-nav{position:fixed;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2.5rem;background:rgba(15,10,5,0.88);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,168,76,0.2);top:34px;}
-.nav-logo{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--gold);}
-.nav-links{display:flex;gap:1.5rem;flex-wrap:wrap;}
-.nav-links a{color:rgba(253,246,227,0.6);text-decoration:none;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;transition:color 0.3s;font-family:'Space Mono',monospace;}
-.nav-links a:hover{color:var(--gold);}
+@keyframes float{0%{transform:translateY(100vh);opacity:0}10%{opacity:0.6}90%{opacity:0.3}100%{transform:translateY(-10vh);opacity:0}}
 
-/* HERO */
-#hero{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:8rem 2rem 4rem;overflow:hidden;}
-.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(123,29,29,0.38) 0%,transparent 70%);}
-.hero-lines{position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 79px,rgba(201,168,76,0.04) 80px);}
-.hero-content{position:relative;z-index:2;}
-.hero-badge{display:inline-block;padding:0.4rem 1.2rem;border:1px solid var(--gold);border-radius:100px;font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-bottom:2rem;font-family:'Space Mono',monospace;animation:fadeDown 0.8s ease both;}
-.hero-school{font-size:clamp(0.75rem,2vw,0.95rem);letter-spacing:0.3em;text-transform:uppercase;color:rgba(253,246,227,0.45);margin-bottom:1rem;animation:fadeDown 0.8s 0.15s ease both;}
-.hero-title{font-family:'Playfair Display',serif;font-size:clamp(4rem,13vw,9.5rem);font-weight:900;line-height:0.88;margin-bottom:1.5rem;animation:fadeDown 0.8s 0.3s ease both;}
-.hero-title .vii{color:var(--gold);display:block;font-style:italic;}
-.hero-title .cls{color:var(--cream);display:block;}
-.hero-subtitle{font-size:clamp(0.95rem,2.5vw,1.35rem);color:rgba(253,246,227,0.6);margin-bottom:3rem;font-weight:300;animation:fadeDown 0.8s 0.45s ease both;}
-.hero-classphoto{width:min(700px,90vw);border-radius:6px;border:1px solid rgba(201,168,76,0.35);box-shadow:0 40px 80px rgba(0,0,0,0.65),0 0 0 8px rgba(201,168,76,0.05);animation:fadeUp 1s 0.6s ease both;margin:0 auto;display:block;cursor:pointer;}
-.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0.5rem;color:rgba(253,246,227,0.4);font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;font-family:'Space Mono',monospace;animation:fadeUp 1s 1.2s ease both;}
-.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--gold),transparent);animation:scrollPulse 2s infinite;}
-@keyframes scrollPulse{0%,100%{opacity:0.3}50%{opacity:1}}
-@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+/* MAIN CONTENT */
+#main{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:3rem 2rem;opacity:0;transition:opacity 1s ease;}
+#main.visible{opacity:1;}
+.card{max-width:680px;width:100%;text-align:center;}
 
-/* SECTIONS */
-section{position:relative;z-index:1;}
-.section-inner{max-width:1200px;margin:0 auto;padding:6rem 2rem;}
-.section-label{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:0.75rem;opacity:0.8;}
-.section-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-bottom:3rem;color:var(--cream);}
-.section-title em{color:var(--gold);font-style:italic;}
-.divider{width:60px;height:2px;background:linear-gradient(to right,var(--gold),transparent);margin-bottom:3rem;}
-.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.65s ease,transform 0.65s ease;}
-.reveal.visible{opacity:1;transform:translateY(0);}
-.reveal.exit-up{opacity:0;transform:translateY(-28px);transition:opacity 0.4s ease,transform 0.4s ease;}
-.reveal.exit-down{opacity:0;transform:translateY(28px);transition:opacity 0.4s ease,transform 0.4s ease;}
+.badge{display:inline-block;padding:.4rem 1.2rem;border:1px solid rgba(201,168,76,.35);border-radius:100px;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:2rem;font-family:'Space Mono',monospace;}
 
-/* STUDENTS */
-#students{background:var(--warm);}
-.students-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1.2rem;}
-.student-card{background:rgba(255,255,255,0.03);border:1px solid rgba(201,168,76,0.1);border-radius:10px;padding:1.2rem 1rem 1.4rem;text-align:center;transition:all 0.3s;position:relative;overflow:hidden;}
-.student-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,168,76,0.08) 0%,transparent 60%);opacity:0;transition:opacity 0.3s;}
-.student-card:hover{border-color:rgba(201,168,76,0.45);transform:translateY(-5px);box-shadow:0 16px 40px rgba(0,0,0,0.4);}
-.student-card:hover::before{opacity:1;}
-.student-photo{width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid rgba(201,168,76,0.4);margin:0 auto 0.85rem;display:block;}
-.student-avatar{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,var(--maroon),var(--warm));border:2px solid rgba(201,168,76,0.3);margin:0 auto 0.85rem;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);font-style:italic;}
-.student-name{font-size:0.8rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--cream);}
-.student-title{margin-top:0.5rem;display:inline-block;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.25);border-radius:100px;padding:0.2rem 0.6rem;font-size:0.62rem;color:var(--gold);font-family:'Space Mono',monospace;letter-spacing:0.05em;}
+.moved-icon{font-size:3.5rem;margin-bottom:1.5rem;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
 
-/* TEACHERS */
-#teachers{background:var(--dark);}
-.teachers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.5rem;}
-.teacher-card{background:rgba(255,255,255,0.02);border:1px solid rgba(201,168,76,0.12);border-radius:12px;overflow:hidden;transition:all 0.3s;}
-.teacher-card:hover{transform:translateY(-6px);border-color:rgba(201,168,76,0.4);box-shadow:0 20px 40px rgba(0,0,0,0.4);}
-.teacher-img-wrap{height:240px;overflow:hidden;background:linear-gradient(135deg,var(--warm),var(--maroon));display:flex;align-items:center;justify-content:center;}
-.teacher-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform 0.4s;}
-.teacher-card:hover .teacher-img-wrap img{transform:scale(1.05);}
-.teacher-placeholder{font-size:4rem;}
-.teacher-info{padding:1.2rem;border-top:1px solid rgba(201,168,76,0.1);}
-.teacher-name{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--cream);margin-bottom:0.3rem;}
-.teacher-subject{font-size:0.7rem;color:var(--gold);letter-spacing:0.15em;text-transform:uppercase;font-family:'Space Mono',monospace;}
-.ct-badge{display:inline-block;background:var(--maroon);color:var(--gold);font-size:0.6rem;padding:0.15rem 0.5rem;border-radius:100px;margin-top:0.4rem;font-family:'Space Mono',monospace;letter-spacing:0.1em;}
+.title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,5vw,3rem);font-weight:900;line-height:1.15;margin-bottom:1rem;}
+.title em{color:var(--gold);font-style:italic;}
 
-/* VIDEO */
-#video-section{background:var(--warm);}
-.video-wrap{border-radius:12px;overflow:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.5);max-width:860px;margin:0 auto;background:#000;}
-.video-wrap video{width:100%;display:block;max-height:520px;}
+.desc{font-size:clamp(.9rem,2vw,1.05rem);color:rgba(253,246,227,.65);line-height:1.8;margin-bottom:2.5rem;font-weight:300;max-width:520px;margin-left:auto;margin-right:auto;}
 
-/* EDITS */
-#edits-section{background:var(--dark);}
-.edits-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;max-width:900px;margin:0 auto;}
-.edit-card{border-radius:12px;overflow:hidden;border:1px solid rgba(201,168,76,0.25);box-shadow:0 20px 60px rgba(0,0,0,0.5);background:#000;display:flex;flex-direction:column;}
-.edit-card video{width:100%;display:block;flex:1;max-height:480px;object-fit:contain;background:#000;}
-.edit-label{background:rgba(201,168,76,0.08);border-top:1px solid rgba(201,168,76,0.15);padding:0.75rem 1rem;font-family:'Space Mono',monospace;font-size:0.7rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;}
+.divider-line{width:60px;height:2px;background:linear-gradient(to right,var(--gold),transparent);margin:0 auto 2.5rem;}
 
-/* GALLERY */
-#gallery{background:linear-gradient(to bottom,var(--warm),var(--dark));}
-.gallery-tabs{display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:2.5rem;}
-.tab-btn{padding:0.5rem 1.2rem;border:1px solid rgba(201,168,76,0.25);background:transparent;color:rgba(253,246,227,0.6);border-radius:100px;cursor:pointer;font-family:'Space Mono',monospace;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;transition:all 0.3s;}
-.tab-btn.active,.tab-btn:hover{background:var(--gold);color:var(--dark);border-color:var(--gold);}
-.gallery-grid{columns:3 250px;gap:1rem;}
-.gallery-item{break-inside:avoid;margin-bottom:1rem;border-radius:8px;overflow:hidden;border:1px solid rgba(201,168,76,0.1);cursor:pointer;transition:transform 0.3s,box-shadow 0.3s;}
-.gallery-item:hover{transform:scale(1.02);box-shadow:0 16px 40px rgba(0,0,0,0.5);}
-.gallery-item img{width:100%;display:block;transition:transform 0.4s;}
-.gallery-item:hover img{transform:scale(1.04);}
-.gallery-item.hidden{display:none;}
+.new-url-label{font-family:'Space Mono',monospace;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,168,76,.5);margin-bottom:.75rem;}
+.new-url{display:inline-block;background:rgba(201,168,76,.07);border:1px solid rgba(201,168,76,.3);border-radius:8px;padding:.9rem 1.8rem;font-family:'Space Mono',monospace;font-size:clamp(.7rem,2vw,.85rem);color:var(--gold);letter-spacing:.05em;margin-bottom:2.5rem;word-break:break-all;}
 
-/* LIGHTBOX */
-#lightbox{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.93);align-items:center;justify-content:center;backdrop-filter:blur(8px);}
-#lightbox.open{display:flex;}
-#lightbox img{max-width:90vw;max-height:88vh;border-radius:4px;box-shadow:0 40px 80px rgba(0,0,0,0.8);border:1px solid rgba(201,168,76,0.3);}
-#lightbox-close{position:absolute;top:1.5rem;right:1.5rem;background:rgba(201,168,76,0.15);border:1px solid var(--gold);color:var(--gold);width:44px;height:44px;border-radius:50%;font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s;}
-#lightbox-close:hover{background:var(--gold);color:var(--dark);}
+.visit-btn{display:inline-block;background:linear-gradient(135deg,var(--maroon),#9B1C1C);border:1px solid rgba(201,168,76,.4);color:var(--gold);font-family:'Space Mono',monospace;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;padding:.85rem 2.5rem;border-radius:100px;text-decoration:none;transition:all .3s;margin-bottom:3rem;}
+.visit-btn:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.4);}
 
-/* MEMES */
-#memes{background:var(--dark);}
-.memes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.5rem;}
-.meme-card{background:rgba(123,29,29,0.12);border:1px solid rgba(201,168,76,0.15);border-radius:12px;padding:2.5rem 1.5rem;text-align:center;transition:all 0.3s;position:relative;overflow:hidden;}
-.meme-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(to right,var(--maroon),var(--gold));transform:scaleX(0);transform-origin:left;transition:transform 0.3s;}
-.meme-card:hover{transform:translateY(-5px);border-color:rgba(201,168,76,0.35);}
-.meme-card:hover::after{transform:scaleX(1);}
-.meme-emoji{font-size:2.8rem;margin-bottom:1rem;}
-.meme-title{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:var(--gold);font-style:italic;}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-bottom:3rem;}
+.info-card{background:rgba(255,255,255,.025);border:1px solid rgba(201,168,76,.1);border-radius:10px;padding:1.2rem 1rem;}
+.info-card .ic-icon{font-size:1.5rem;margin-bottom:.5rem;}
+.info-card .ic-title{font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;}
+.info-card .ic-desc{font-size:.78rem;color:rgba(253,246,227,.5);line-height:1.5;}
 
-/* QUOTES */
-#quotes-section{background:linear-gradient(to bottom,var(--dark),var(--warm));}
-.qw-compose{max-width:720px;margin:0 auto 3.5rem;}
-.qw-compose-inner{background:rgba(255,255,255,0.025);border:1px solid rgba(201,168,76,0.18);border-radius:14px;padding:1.8rem 2rem;transition:border-color .3s;}
-.qw-compose-inner:focus-within{border-color:rgba(201,168,76,.45);box-shadow:0 0 40px rgba(201,168,76,.05);}
-.qw-quote-wrap{position:relative;display:flex;align-items:flex-start;gap:.5rem;margin-bottom:1.2rem;}
-.qw-openquote,.qw-closequote{font-family:'Playfair Display',serif;font-size:3rem;color:rgba(201,168,76,.25);line-height:1;margin-top:-.2rem;flex-shrink:0;}
-.qw-closequote{align-self:flex-end;margin-bottom:-.2rem;}
-.qw-textarea{flex:1;background:transparent;border:none;outline:none;color:var(--cream);font-family:'Playfair Display',serif;font-size:clamp(.9rem,2vw,1.1rem);font-style:italic;line-height:1.7;resize:none;padding:.3rem 0;}
-.qw-textarea::placeholder{color:rgba(253,246,227,.2);font-style:italic;}
-.qw-from-row{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;}
-.qw-from-label{font-family:'Space Mono',monospace;font-size:.7rem;color:rgba(201,168,76,.5);letter-spacing:.1em;}
-.qw-name-input{flex:1;min-width:120px;background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.15);border-radius:100px;color:var(--cream);font-family:'DM Sans',sans-serif;font-size:.85rem;padding:.45rem 1rem;outline:none;transition:border-color .2s;}
-.qw-name-input:focus{border-color:rgba(201,168,76,.4);}
-.qw-name-input::placeholder{color:rgba(253,246,227,.22);}
-.qw-count{font-size:.65rem;color:rgba(253,246,227,.25);font-family:'Space Mono',monospace;}
-.qw-btn{background:linear-gradient(135deg,var(--maroon),#9B1C1C);border:1px solid rgba(201,168,76,.3);color:var(--gold);font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.12em;padding:.55rem 1.4rem;border-radius:100px;cursor:pointer;transition:all .3s;}
-.qw-btn:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 8px 20px rgba(0,0,0,.3);}
-.qw-btn:disabled{opacity:.4;cursor:not-allowed;transform:none;}
-.qw-feed{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem;}
-.qw-card{background:rgba(255,255,255,.025);border:1px solid rgba(201,168,76,.1);border-radius:12px;padding:1.6rem 1.5rem 1.2rem;position:relative;overflow:hidden;animation:qCardIn .5s cubic-bezier(.16,1,.3,1) both;transition:border-color .3s,transform .3s;}
-.qw-card:hover{border-color:rgba(201,168,76,.3);transform:translateY(-3px);}
-.qw-card::before{content:'"';font-family:'Playfair Display',serif;font-size:5rem;color:rgba(201,168,76,.06);position:absolute;top:-.5rem;left:.5rem;line-height:1;pointer-events:none;}
-@keyframes qCardIn{from{opacity:0;transform:translateY(16px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
-.qw-card-text{font-family:'Playfair Display',serif;font-size:.95rem;font-style:italic;color:rgba(253,246,227,.8);line-height:1.7;margin-bottom:1rem;position:relative;z-index:1;}
-.qw-card-footer{display:flex;align-items:center;justify-content:space-between;}
-.qw-card-from{font-family:'Space Mono',monospace;font-size:.65rem;color:var(--gold);letter-spacing:.1em;}
-.qw-card-from::before{content:'— ';opacity:.5;}
-.qw-card-time{font-size:.58rem;color:rgba(253,246,227,.2);font-family:'Space Mono',monospace;}
-.qw-card-num{position:absolute;top:.8rem;right:.9rem;font-family:'Space Mono',monospace;font-size:.55rem;color:rgba(201,168,76,.2);letter-spacing:.1em;}
-.qw-empty{text-align:center;color:rgba(253,246,227,.22);font-size:.9rem;font-style:italic;padding:3rem;font-family:'Playfair Display',serif;grid-column:1/-1;}
-.qw-loading{text-align:center;color:rgba(201,168,76,.4);font-size:.65rem;font-family:'Space Mono',monospace;letter-spacing:.2em;padding:2rem;grid-column:1/-1;}
-.qw-note{max-width:720px;margin:1.5rem auto 0;text-align:center;font-size:.62rem;color:rgba(253,246,227,.18);font-family:'Space Mono',monospace;letter-spacing:.12em;text-transform:uppercase;}
-
-/* TIMETABLE */
-#timetable{background:var(--warm);}
-.timetable-wrap{border-radius:12px;overflow:hidden;border:1px solid rgba(201,168,76,0.2);box-shadow:0 20px 60px rgba(0,0,0,0.4);}
-.timetable-wrap img{width:100%;display:block;}
-
-/* MEMORIES QUOTE */
-#memories{background:linear-gradient(135deg,var(--maroon) 0%,#3D0D0D 50%,var(--dark) 100%);text-align:center;}
-.memories-deco{font-size:5rem;color:rgba(201,168,76,0.15);font-family:'Playfair Display',serif;line-height:1;margin-bottom:0.5rem;}
-.memories-quote{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.8rem);font-style:italic;color:var(--cream);max-width:780px;margin:0 auto 1.5rem;line-height:1.45;}
-.memories-attribution{font-size:0.78rem;color:rgba(201,168,76,0.7);letter-spacing:0.2em;text-transform:uppercase;font-family:'Space Mono',monospace;}
-
-/* FOOTER */
-footer{background:var(--dark);border-top:1px solid rgba(201,168,76,0.1);text-align:center;padding:3rem 2rem;}
-.footer-title{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);margin-bottom:0.5rem;font-style:italic;}
-.footer-sub{font-size:0.72rem;color:rgba(253,246,227,0.35);letter-spacing:0.15em;font-family:'Space Mono',monospace;}
-.footer-hearts{font-size:1.5rem;margin:1.5rem 0;}
-
-@media(max-width:640px){
-  nav{padding:1rem;}
-  .nav-links{gap:0.8rem;}
-  .nav-links a{font-size:0.6rem;}
-  .gallery-grid{columns:2 140px;}
-  .teachers-grid{grid-template-columns:repeat(2,1fr);}
-  .students-grid{grid-template-columns:repeat(3,1fr);}
-  .edits-grid{grid-template-columns:1fr;}
-}
+.footer-note{font-family:'Space Mono',monospace;font-size:.58rem;color:rgba(253,246,227,.2);letter-spacing:.12em;text-transform:uppercase;}
 </style>
 </head>
 <body>
 
-<!-- GSMS BANNER -->
-<div id="gsms-banner">
-  <div class="gsms-scroll-wrap">
-    <div class="gsms-scroll-inner" id="gsmsScroll"></div>
-  </div>
-</div>
-
-<!-- CINEMATIC INTRO -->
+<!-- INTRO -->
 <div id="intro-screen">
   <canvas id="intro-canvas"></canvas>
   <div id="intro-content">
@@ -248,245 +94,32 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,0.1);text-ali
 </div>
 
 <div id="particles"></div>
-<div id="lightbox">
-  <button id="lightbox-close" onclick="closeLightbox()">✕</button>
-  <img id="lightbox-img" src="" alt="">
+
+<div id="main">
+  <div class="card">
+    <div class="badge">N.K. Bagrodia Global School · Sector-17, Dwarka</div>
+    <div class="moved-icon">🚀</div>
+    <h1 class="title">We've <em>Moved</em> to a<br>Better Home</h1>
+    <div class="divider-line"></div>
+    <p class="desc">
+      The VII-C Memorial has officially migrated to a new, faster, and more secure platform. 
+      We've moved away from GitHub Pages to ensure better privacy for our photos and a smoother experience for everyone. 
+      All your memories, quotes, gallery, and videos are waiting for you at our new address.
+    </p>
+    <div class="new-url-label">Our New Home</div>
+    <div class="new-url">republic-vii-c-memories.vercel.app</div>
+    <br>
+    <a href="https://republic-vii-c-memories.vercel.app/" class="visit-btn" target="_blank">Visit New Site ✦</a>
+    <div class="info-grid">
+      <div class="info-card"><div class="ic-icon">⚡</div><div class="ic-title">Faster</div><div class="ic-desc">Powered by Vercel's global CDN for lightning fast loads</div></div>
+      <div class="info-card"><div class="ic-icon">🔒</div><div class="ic-title">More Secure</div><div class="ic-desc">Private source code — your photos are protected</div></div>
+      <div class="info-card"><div class="ic-icon">✨</div><div class="ic-title">Same Site</div><div class="ic-desc">Everything is intact — gallery, quotes, videos & more</div></div>
+    </div>
+    <p class="footer-note">VII-C · NKBGS · Session 2025–2026 · This page will remain as a redirect</p>
+  </div>
 </div>
 
-<nav>
-  <div class="nav-logo">VII-C · NKBGS</div>
-  <div class="nav-links">
-    <a href="#students">Class</a>
-    <a href="#teachers">Teachers</a>
-    <a href="#video-section">Video</a>
-    <a href="#edits-section">Edits</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#memes">Memes</a>
-    <a href="#quotes-section">Quotes</a>
-    <a href="#timetable">Timetable</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-lines"></div>
-  <div class="hero-content">
-    <div class="hero-badge">N.K. Bagrodia Global School · Sector-17, Dwarka</div>
-    <div class="hero-school">Class Memorial · Batch 2025–2026</div>
-    <h1 class="hero-title"><span class="vii">VII</span><span class="cls">— C —</span></h1>
-    <p class="hero-subtitle">Some years you never forget. This was one of them.</p>
-    <img class="hero-classphoto" src="assets/images/classphoto.jpg" alt="Class VII-C" onclick="openLightbox(this.src)">
-  </div>
-  <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
-</section>
-
-<!-- STUDENTS -->
-<section id="students">
-  <div class="section-inner">
-    <p class="section-label reveal">Batch 2025–2026</p>
-    <h2 class="section-title reveal">The <em>Squad</em></h2>
-    <div class="divider reveal"></div>
-    <div class="students-grid reveal">
-      <div class="student-card"><img class="student-photo" src="assets/images/s_aadvik.png" alt="AADVIK"><div class="student-name">AADVIK</div><div class="student-title">🏅 Joke Machine</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_aditrim.png" alt="ADITRI M"><div class="student-name">ADITRI M</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_aditrip.png" alt="ADITRI P"><div class="student-name">ADITRI P</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_agrima.png" alt="AGRIMA"><div class="student-name">AGRIMA</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_akshat.png" alt="AKSHAT"><div class="student-name">AKSHAT</div><div class="student-title">🏅 The Fake Scholar</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_ansh.png" alt="ANSH"><div class="student-name">ANSH</div><div class="student-title">🏅 Black Cheetah</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_ayaan.png" alt="AYAAN"><div class="student-name">AYAAN</div><div class="student-title">🏅 Tactical Insurgency Command</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_bittu.png" alt="BITTU"><div class="student-name">BITTU</div><div class="student-title">🏅 Cant see u man</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_ceerat.png" alt="CEERAT"><div class="student-name">CEERAT</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_manasvi.png" alt="MANASVI"><div class="student-name">MANASVI</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_mayank.png" alt="MAYANK"><div class="student-name">MAYANK</div><div class="student-title">🏅 All Below Rounder</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_naksh.png" alt="NAKSH"><div class="student-name">NAKSH</div><div class="student-title">🏅 Burj Khalifa</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_nikhil.png" alt="NIKHIL"><div class="student-name">NIKHIL</div><div class="student-title">🏅 Moonwalk Man</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_pakhi.png" alt="PAKHI"><div class="student-name">PAKHI</div><div class="student-title">🏅 Op Cricketer</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_rudra.png" alt="RUDRA"><div class="student-name">RUDRA</div><div class="student-title">🏅 Pocket-Sized Operative</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_shaurya.png" alt="SHAURYA"><div class="student-name">SHAURYA</div><div class="student-title">🏅 Rajput</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_shivaya.png" alt="SHIVAYA"><div class="student-name">SHIVAYA</div><div class="student-title">🏅 Methane</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_vedant.png" alt="VEDANT"><div class="student-name">VEDANT</div><div class="student-title">🏅 CLASS MONITOR</div></div>
-      <div class="student-card"><img class="student-photo" src="assets/images/s_vivaan.png" alt="VIVAAN"><div class="student-name">VIVAAN</div><div class="student-title">🏅 Demon Slayer</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- TEACHERS -->
-<section id="teachers">
-  <div class="section-inner">
-    <p class="section-label reveal">The People Who Guided Us</p>
-    <h2 class="section-title reveal">Our <em>Teachers</em></h2>
-    <div class="divider reveal"></div>
-    <div class="teachers-grid reveal">
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_kritika.png" alt="Kritika Pathela Ma'am"></div><div class="teacher-info"><div class="teacher-name">Kritika Pathela Ma'am</div><div class="teacher-subject">Class Teacher · English</div><span class="ct-badge">★ Class Teacher</span></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_ela.png" alt="Ela Ma'am"></div><div class="teacher-info"><div class="teacher-name">Ela Ma'am</div><div class="teacher-subject">Mathematics</div></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_trisha.png" alt="Trisha Ma'am"></div><div class="teacher-info"><div class="teacher-name">Trisha Ma'am</div><div class="teacher-subject">Science</div></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_sandeep.png" alt="Sandeep Sir"></div><div class="teacher-info"><div class="teacher-name">Sandeep Sir</div><div class="teacher-subject">Computer</div></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_reema.jpg" alt="Reema Ma'am"></div><div class="teacher-info"><div class="teacher-name">Reema Ma'am</div><div class="teacher-subject">Hindi</div></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_karan.png" alt="Karan Sir"></div><div class="teacher-info"><div class="teacher-name">Karan Sir</div><div class="teacher-subject">SSC</div></div></div>
-      <div class="teacher-card"><div class="teacher-img-wrap"><img src="assets/images/t_naveen.png" alt="Naveen Sir"></div><div class="teacher-info"><div class="teacher-name">Naveen Sir</div><div class="teacher-subject">Sanskrit</div></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- VIDEO -->
-<section id="video-section">
-  <div class="section-inner">
-    <p class="section-label reveal">Kaushal Mela 2025–26</p>
-    <h2 class="section-title reveal">The <em>Video</em></h2>
-    <div class="divider reveal"></div>
-    <div class="video-wrap reveal">
-      <video controls playsinline src="assets/videos/kaushal_mela.mp4"></video>
-    </div>
-  </div>
-</section>
-
-<!-- EDITS -->
-<section id="edits-section">
-  <div class="section-inner">
-    <p class="section-label reveal">Class Edits</p>
-    <h2 class="section-title reveal">Our <em>Edits</em></h2>
-    <div class="divider reveal"></div>
-    <div class="edits-grid reveal">
-      <div class="edit-card"><video controls playsinline src="assets/videos/edit1.mp4"></video><div class="edit-label">✂️ Edit 01</div></div>
-      <div class="edit-card"><video controls playsinline src="assets/videos/edit2.mp4"></video><div class="edit-label">✂️ Edit 02</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- GALLERY -->
-<section id="gallery">
-  <div class="section-inner">
-    <p class="section-label reveal">The Year in Pictures</p>
-    <h2 class="section-title reveal">Our <em>Memories</em></h2>
-    <div class="divider reveal"></div>
-    <div class="gallery-tabs reveal">
-      <button class="tab-btn active" onclick="filterGallery('all',this)">All</button>
-      <button class="tab-btn" onclick="filterGallery('kaushal',this)">Kaushal Mela</button>
-      <button class="tab-btn" onclick="filterGallery('trip',this)">School Trip</button>
-      <button class="tab-btn" onclick="filterGallery('class',this)">In Class</button>
-    </div>
-    <div class="gallery-grid" id="galleryGrid">
-      <div class="gallery-item" data-cat="kaushal" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_group1.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="kaushal" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_stem.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="kaushal" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_millet.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_classroom.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_rickshaw.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_bus1.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_bus2.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_bus3.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_bus4.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_bus5.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip1.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip2.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip3.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip4.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip5.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip6.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip7.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip8.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_trip9.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new1.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new2.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new3.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new4.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new5.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new6.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new7.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="trip" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new8.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new9.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new10.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new11.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new12.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new13.jpg" loading="lazy"></div>
-      <div class="gallery-item" data-cat="class" onclick="openLightbox(this.querySelector('img').src)"><img src="assets/images/g_new14.jpg" loading="lazy"></div>
-    </div>
-  </div>
-</section>
-
-<!-- MEMES -->
-<section id="memes">
-  <div class="section-inner">
-    <p class="section-label reveal">Class Lore</p>
-    <h2 class="section-title reveal">The <em>Memes</em></h2>
-    <div class="divider reveal"></div>
-    <div class="memes-grid reveal">
-      <div class="meme-card"><div class="meme-emoji">🤡</div><div class="meme-title">Dumbaloo</div></div>
-      <div class="meme-card"><div class="meme-emoji">💻</div><div class="meme-title">Technologia</div></div>
-      <div class="meme-card"><div class="meme-emoji">😎</div><div class="meme-title">Sunni</div></div>
-      <div class="meme-card"><div class="meme-emoji">🥁</div><div class="meme-title">Bluedrum</div></div>
-      <div class="meme-card"><div class="meme-emoji">😔</div><div class="meme-title">Depression ka rogi</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- QUOTES -->
-<section id="quotes-section">
-  <div class="section-inner">
-    <p class="section-label reveal">Words From VII-C</p>
-    <h2 class="section-title reveal">The <em>Quote Wall</em></h2>
-    <div class="divider reveal"></div>
-    <div class="qw-compose reveal">
-      <div class="qw-compose-inner">
-        <div class="qw-quote-wrap">
-          <span class="qw-openquote">"</span>
-          <textarea id="qwText" placeholder="Write your quote here..." maxlength="180" class="qw-textarea" rows="3" oninput="document.getElementById('qwCount').textContent=this.value.length+' / 180'"></textarea>
-          <span class="qw-closequote">"</span>
-        </div>
-        <div class="qw-from-row">
-          <span class="qw-from-label">— from</span>
-          <input type="text" id="qwName" placeholder="Your name" maxlength="30" class="qw-name-input">
-          <span id="qwCount" class="qw-count">0 / 180</span>
-          <button class="qw-btn" onclick="submitQuote()">Post ✦</button>
-        </div>
-      </div>
-    </div>
-    <div id="qwFeed" class="qw-feed reveal"></div>
-    <div class="qw-note reveal">Rolling wall · Oldest quote removed when wall is full · Max 10 quotes</div>
-  </div>
-</section>
-
-<!-- MEMORIES -->
-<section id="memories">
-  <div class="section-inner">
-    <div class="memories-deco">"</div>
-    <p class="memories-quote reveal">Not just a class. A memory for life.</p>
-    <p class="memories-attribution reveal">— Class VII-C · N.K. Bagrodia Global School · 2025–2026</p>
-  </div>
-</section>
-
-<!-- TIMETABLE -->
-<section id="timetable">
-  <div class="section-inner">
-    <p class="section-label reveal">Weekly Schedule</p>
-    <h2 class="section-title reveal">The <em>Timetable</em></h2>
-    <div class="divider reveal"></div>
-    <div class="timetable-wrap reveal">
-      <img src="assets/images/timetable.jpg" alt="Class VII-C Timetable">
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-title">Class VII-C</div>
-  <p class="footer-sub">N.K. BAGRODIA GLOBAL SCHOOL · SECTOR-17, DWARKA, DELHI · SESSION 2025–2026</p>
-  <div class="footer-hearts">❤️ 🎓 ✨</div>
-  <p class="footer-sub">Made with love for the wildest class in the school</p>
-</footer>
-
-<!-- SCRIPTS -->
 <script>
-// GSMS Banner
-(function(){
-  const h=new Date().getHours();
-  const greeting=h>=5&&h<12?'Good Morning':h>=17?'Good Evening':'';
-  const msg=(greeting?greeting+' — ':'')+'Due to technical & privacy concerns, this website may be temporarily down during migration to Cloudflare for a better & more secure experience.';
-  const el=document.getElementById('gsmsScroll');
-  const chunk=`<span class="gsms-tag">GSMS</span><span class="gsms-msg">&nbsp;&nbsp;${msg}</span><span class="gsms-sep">&nbsp;&nbsp;✦&nbsp;&nbsp;</span><span class="gsms-tag">GSMS</span><span class="gsms-msg">&nbsp;&nbsp;Global Server Messaging System</span><span class="gsms-sep">&nbsp;&nbsp;✦&nbsp;&nbsp;</span>`;
-  el.innerHTML=chunk+chunk;
-  setTimeout(()=>{document.getElementById('gsms-banner').classList.add('visible');},4800);
-})();
-
 // Particles
 const pc=document.getElementById('particles');
 for(let i=0;i<35;i++){const p=document.createElement('div');p.className='particle';p.style.cssText=`left:${Math.random()*100}%;width:${Math.random()*3+1}px;height:${Math.random()*3+1}px;animation-duration:${Math.random()*15+8}s;animation-delay:${Math.random()*10}s`;pc.appendChild(p);}
@@ -494,8 +127,7 @@ for(let i=0;i<35;i++){const p=document.createElement('div');p.className='particl
 // Intro
 (function(){
   const intro=document.getElementById('intro-screen');
-  for(let i=0;i<18;i++){const r=document.createElement('div');r.className='i-ray';r.style.cssText=`transform:rotate(${(i/18)*360}deg) translateX(-50%);animation:rayP ${1.8+Math.random()*2.2}s ${Math.random()*1.5}s ease-in-out infinite alternate`;intro.appendChild(r);}
-  const st=document.createElement('style');st.textContent='@keyframes rayP{from{opacity:.08}to{opacity:.45}}';document.head.appendChild(st);
+  for(let i=0;i<18;i++){const r=document.createElement('div');r.className='i-ray';r.style.cssText=`transform:rotate(${(i/18)*360}deg) translateX(-50%);`;intro.appendChild(r);}
   const cv=document.getElementById('intro-canvas'),ctx=cv.getContext('2d');
   function rsz(){cv.width=innerWidth;cv.height=innerHeight;}rsz();addEventListener('resize',rsz);
   const pts=Array.from({length:90},()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:Math.random()*1.6+.3,vx:(Math.random()-.5)*.22,vy:-Math.random()*.55-.08,a:Math.random()*.5+.1,l:Math.random()}));
@@ -503,56 +135,15 @@ for(let i=0;i<35;i++){const p=document.createElement('div');p.className='particl
   function addS(){shoots.push({x:Math.random()*cv.width*.7,y:Math.random()*cv.height*.4,len:Math.random()*90+50,spd:Math.random()*5+4,a:1,ang:Math.PI/4+(Math.random()-.5)*.25,p:0});}
   setTimeout(addS,900);setTimeout(addS,2100);setTimeout(addS,3100);
   let going=true;
-  function draw(){
-    if(!going)return;
-    ctx.clearRect(0,0,cv.width,cv.height);
-    const g=ctx.createRadialGradient(cv.width/2,cv.height/2,0,cv.width/2,cv.height/2,cv.width*.48);
-    g.addColorStop(0,'rgba(123,29,29,.12)');g.addColorStop(.5,'rgba(201,168,76,.03)');g.addColorStop(1,'transparent');
-    ctx.fillStyle=g;ctx.fillRect(0,0,cv.width,cv.height);
-    pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.l+=.0025;if(p.y<-5||p.l>1){p.x=Math.random()*cv.width;p.y=cv.height+5;p.l=0;}const f=p.l<.12?p.l*8:p.l>.78?(1-p.l)*4.5:1;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(201,168,76,${p.a*f})`;ctx.fill();});
-    shoots.forEach((s,i)=>{s.p+=s.spd;const tx=s.x+Math.cos(s.ang)*s.p,ty=s.y+Math.sin(s.ang)*s.p,tx0=s.x+Math.cos(s.ang)*Math.max(0,s.p-s.len),ty0=s.y+Math.sin(s.ang)*Math.max(0,s.p-s.len);const sg=ctx.createLinearGradient(tx0,ty0,tx,ty);sg.addColorStop(0,'rgba(201,168,76,0)');sg.addColorStop(1,`rgba(201,168,76,${s.a*.8})`);ctx.beginPath();ctx.moveTo(tx0,ty0);ctx.lineTo(tx,ty);ctx.strokeStyle=sg;ctx.lineWidth=1.5;ctx.stroke();s.a-=.018;if(s.a<=0)shoots.splice(i,1);});
-    requestAnimationFrame(draw);
-  }
+  function draw(){if(!going)return;ctx.clearRect(0,0,cv.width,cv.height);const g=ctx.createRadialGradient(cv.width/2,cv.height/2,0,cv.width/2,cv.height/2,cv.width*.48);g.addColorStop(0,'rgba(123,29,29,.12)');g.addColorStop(.5,'rgba(201,168,76,.03)');g.addColorStop(1,'transparent');ctx.fillStyle=g;ctx.fillRect(0,0,cv.width,cv.height);pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.l+=.0025;if(p.y<-5||p.l>1){p.x=Math.random()*cv.width;p.y=cv.height+5;p.l=0;}const f=p.l<.12?p.l*8:p.l>.78?(1-p.l)*4.5:1;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(201,168,76,${p.a*f})`;ctx.fill();});shoots.forEach((s,i)=>{s.p+=s.spd;const tx=s.x+Math.cos(s.ang)*s.p,ty=s.y+Math.sin(s.ang)*s.p,tx0=s.x+Math.cos(s.ang)*Math.max(0,s.p-s.len),ty0=s.y+Math.sin(s.ang)*Math.max(0,s.p-s.len);const sg=ctx.createLinearGradient(tx0,ty0,tx,ty);sg.addColorStop(0,'rgba(201,168,76,0)');sg.addColorStop(1,`rgba(201,168,76,${s.a*.8})`);ctx.beginPath();ctx.moveTo(tx0,ty0);ctx.lineTo(tx,ty);ctx.strokeStyle=sg;ctx.lineWidth=1.5;ctx.stroke();s.a-=.018;if(s.a<=0)shoots.splice(i,1);});requestAnimationFrame(draw);}
   draw();
   function show(id,delay){setTimeout(()=>{const el=document.getElementById(id);if(el){el.style.opacity='1';el.style.transform='translateY(0) translateX(0) scale(1)';}},delay);}
   show('i1',250);show('i2',550);show('i3',950);
   setTimeout(()=>{document.getElementById('i4').style.cssText+='opacity:1;transform:translateX(0) scale(1)';document.getElementById('i5').style.cssText+='opacity:1';document.getElementById('i6').style.cssText+='opacity:1;transform:translateX(0) scale(1)';},1250);
   setTimeout(()=>document.getElementById('i-line').classList.add('show'),1500);
   show('i7',2100);show('i8',2700);
-  setTimeout(()=>{going=false;intro.classList.add('hide');setTimeout(()=>intro.style.display='none',1200);},4000);
+  setTimeout(()=>{going=false;intro.classList.add('hide');setTimeout(()=>{intro.style.display='none';document.getElementById('main').classList.add('visible');},1200);},4000);
 })();
-
-// Scroll reveal
-const revealEls=document.querySelectorAll('.reveal');
-let lastScrollY=window.scrollY;
-const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{const el=entry.target;if(entry.isIntersecting){el.classList.remove('exit-up','exit-down');el.classList.add('visible');}else{el.classList.remove('visible');if(window.scrollY>lastScrollY){el.classList.add('exit-up');el.classList.remove('exit-down');}else{el.classList.add('exit-down');el.classList.remove('exit-up');}}});lastScrollY=window.scrollY;},{threshold:0.08});
-window.addEventListener('scroll',()=>{lastScrollY=window.scrollY;});
-revealEls.forEach(el=>observer.observe(el));
-
-// Lightbox
-function openLightbox(src){document.getElementById('lightbox-img').src=src;document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';}
-function closeLightbox(){document.getElementById('lightbox').classList.remove('open');document.body.style.overflow='';}
-document.getElementById('lightbox').addEventListener('click',function(e){if(e.target===this)closeLightbox();});
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox();});
-
-// Gallery filter
-function filterGallery(cat,btn){document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.gallery-item').forEach(item=>{item.classList.toggle('hidden',cat!=='all'&&item.dataset.cat!==cat);});}
-</script>
-
-<!-- Firebase Quotes -->
-<script type="module">
-import{initializeApp}from"https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
-import{getDatabase,ref,get,set}from"https://www.gstatic.com/firebasejs/11.0.0/firebase-database.js";
-const firebaseConfig={apiKey:"AIzaSyD1eskM1Y8AT0W4nkZSdPF3vHcJU19stCk",authDomain:"memories-of-7c.firebaseapp.com",databaseURL:"https://memories-of-7c-default-rtdb.firebaseio.com",projectId:"memories-of-7c",storageBucket:"memories-of-7c.firebasestorage.app",messagingSenderId:"717482697126",appId:"1:717482697126:web:fcbf31c5119d73ae612f67"};
-const app=initializeApp(firebaseConfig);
-const db=getDatabase(app);
-const MAX=10;
-function timeAgo(ts){const d=Date.now()-ts,m=Math.floor(d/60000);if(m<1)return'just now';if(m<60)return m+'m ago';const h=Math.floor(m/60);if(h<24)return h+'h ago';return Math.floor(h/24)+'d ago';}
-function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function render(quotes){const feed=document.getElementById('qwFeed');if(!quotes||!quotes.length){feed.innerHTML='<div class="qw-empty">No quotes yet — be the first ✦</div>';return;}feed.innerHTML=[...quotes].reverse().map((q,i)=>`<div class="qw-card" style="animation-delay:${i*0.06}s"><div class="qw-card-num">#${quotes.length-i}</div><div class="qw-card-text">${esc(q.text)}</div><div class="qw-card-footer"><span class="qw-card-from">${esc(q.name)}</span><span class="qw-card-time">${timeAgo(q.ts)}</span></div></div>`).join('');}
-async function load(){document.getElementById('qwFeed').innerHTML='<div class="qw-loading">LOADING QUOTES...</div>';try{const snap=await get(ref(db,'quotes'));render(snap.exists()?snap.val():[]);}catch(e){document.getElementById('qwFeed').innerHTML='<div class="qw-empty">Could not load quotes.</div>';}}
-window.submitQuote=async function(){const text=document.getElementById('qwText').value.trim(),name=document.getElementById('qwName').value.trim();if(!text||!name)return;const btn=document.querySelector('.qw-btn');btn.disabled=true;btn.textContent='Posting...';try{const snap=await get(ref(db,'quotes'));let quotes=snap.exists()?snap.val():[];quotes.push({text,name,ts:Date.now()});if(quotes.length>MAX)quotes=quotes.slice(quotes.length-MAX);await set(ref(db,'quotes'),quotes);document.getElementById('qwText').value='';document.getElementById('qwName').value='';document.getElementById('qwCount').textContent='0 / 180';render(quotes);}catch(e){alert('Could not post. Try again!');}btn.disabled=false;btn.textContent='Post ✦';};
-load();
 </script>
 </body>
 </html>
